@@ -1,4 +1,5 @@
 #!/bin/bash
+# added a comment line:  this scripti
 
 for i in 4010 4020 4030 4040 4050 4060
 do
