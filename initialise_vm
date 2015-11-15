@@ -1,0 +1,17 @@
+#!/bin/bash
+
+cd /tmp
+
+for i in 1 2 3 4 5 6 7 8 9 10
+do
+	rm ./testfile.$i
+done
+sleep 5
+for i in 1 2 3 4 5 6 7 8 9 10
+do
+	dd if=/dev/zero bs=32k count=30000 of=./testfile.$i &
+done
+
+
+
+

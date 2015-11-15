@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for i in 4010 4020 4030 4040 4050 4060
+do
+	scp -P $i ./initialise_vm weynand@192.168.28.53:./initialise_vm
+done
+
+
+
